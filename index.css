@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background-image: url('');
+    background-color: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #a9a9a9;
+    height: 50px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block; 
+    padding: 20px 16px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+li a:hover {
+    color:teal;
+}
+
+.wrapper {
+    padding: 1rem; 
+}
+
+.center {
+    color:teal;
+    font-size: 60px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    image-orientation: right;
+    margin: 1rem;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+}
+
+.picture {
+    border-radius: 50%;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.logo {
+    border-radius: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+
+}
+
+p {
+    text-align: left;
+    color: black;
+    background-color: bold;
+}
+
+h3 {
+    color: black;
+}
+
+.footer {
+    float: none;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    background-color: teal;
+    height: 50px;
+    overflow: hidden;
+}
+
+.sidebar {
+    list-style-type: none;
+    width: 200px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 210px;
+    left: 1365px;
+    background-color:#a9a9a9;
+    padding: 0;
+    display: block;
+    border-radius: 10px;
+}
+  
+.sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    display: block;
+    margin: 1rem;
+}
+  
+.sidebar a:hover {
+    color:teal;
+}
+
+article {
+    padding: 1rem;
+    margin: 0;
+    display: block;
+    top: -40px;
+    left: 0px;
+    position: relative;
+    font-size: 15px;
+
+
+}
+
+.ads {
+    list-style-type: none;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    top: 550px;
+    left: 1305px;
+    background-color:grey;
+    padding: 0;
+    display: block;
+    border-radius: 10px;
+    animation-name: ad;
+    animation-duration: 6s;
+    animation-delay: 2;
+    animation-iteration-count: infinite;
+
+}
+  
+.ads a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin: 1rem;
+}
+
+@-webkit-keyframes ad {
+    from {background-color:grey;}
+    to {background-color:blue;}
+}
+  
+.screenshots {
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.images {
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.images:hover {
+    color: grey;
+    transform: scale(1.05);
+}
